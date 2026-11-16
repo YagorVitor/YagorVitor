@@ -1,54 +1,45 @@
-Yagor Santos
+# Yagor Santos
 
-Software engineer focused on backend systems, cloud infrastructure, and applied AI.
+**Software Engineer | Backend Systems, Cloud Infrastructure & Applied AI**
 
-I develop and operate production services using TypeScript, NestJS, Python, and AWS.
+At InoviaCorp, I build and maintain the backend for SeeVer, a computer vision SaaS. My work includes integrating Amazon SageMaker inference into the NestJS API, implementing seat-based subscription billing with Stripe and DynamoDB, and investigating production issues. I am also leading the migration from AWS App Runner to Amazon ECS.
 
-At InoviaCorp, I am responsible for backend delivery for SeeVer, a computer-vision SaaS. I work on API design, data modeling, authentication, subscription billing, code reviews, and deployments across staging and production. I also investigate production issues and am currently leading the migration from AWS App Runner to Amazon ECS.
+Araraquara, Brazil (UTC−3) · [LinkedIn](https://www.linkedin.com/in/yagor-santos-21b3122b5/)
 
-At IFSP, I conduct applied machine-learning research using RGB and multispectral drone imagery to study soil conditions and crop nutrition in smallholder agriculture.
+## Selected projects
 
-"LinkedIn" (https://www.linkedin.com/in/yagor-santos-21b3122b5/) · Araraquara, Brazil (UTC−3)
+### CompletAI · SEMCOMP × iFood Hackathon
 
-Projects
+My team built a grocery assistant that turns food photos, user preferences, and meal requests into recommendations and an iFood Mercado cart.
 
-Écodados
+I developed the AI agents with the OpenAI Agents SDK, the computer vision workflow for identifying ingredients in photos, and the FastAPI backend that connects image recognition, meal recommendations, product search, and cart creation.
 
-Our team won 1st place among 15 teams at ClimatonBrasil 2026, a hackathon organized by Brazil’s Federal Court of Accounts (TCU).
+Users review the recognized ingredients before proceeding. Search is the only iFood MCP operation exposed to the agent. The backend validates the proposed cart, then creates and verifies it after explicit user confirmation. The prototype ends at the verified cart.
 
-We built a WebGIS platform that uses climate indicators and AI to help public managers identify priorities and develop action plans. I worked primarily on the backend, database, and AI integration.
+[Repository](https://github.com/YagorVitor/Hackathon-Ifood) · [Screenshots and user flow](https://github.com/YagorVitor/Hackathon-Ifood/blob/main/docs/entregaveis/04-interface-visual.md) · [Agent implementation](https://github.com/YagorVitor/Hackathon-Ifood/blob/main/backend/app/agent.py) · [Cart tests](https://github.com/YagorVitor/Hackathon-Ifood/blob/main/backend/tests/test_cart.py)
 
-Stack: Python, FastAPI, MongoDB, OpenAI Responses API, RAG, React, and Mapbox GL.
+### ÉcoDados · 1st place at ClimatonBrasil 2026
 
-TCU published an "official article about the project" (https://portal.tcu.gov.br/imprensa/noticias/ecodados-vence-climatonbrasil-2026-com-aplicacao-voltada-a-gestao-publica), naming our team and describing the solution.
+Our team won first place among 15 teams at the hackathon organized by Brazil’s Federal Court of Accounts (TCU). We built a WebGIS platform to help public managers prioritize climate issues and develop action plans.
 
-I am scheduled to take part in the project’s presentation at the ClimateScanner Summit 2026, representing the developers. The event takes place on November 5 and 6 in Rio de Janeiro, organized by TCU, BNDES, and UNDP.
+I worked on the FastAPI backend, MongoDB data model, and OpenAI Responses API integration. The model suggests assessment criteria and drafts action plans. The backend validates structured outputs and computes rankings using deterministic rules.
 
-"Official Summit announcement" (https://portal.tcu.gov.br/imprensa/noticias/encontro-internacional-discute-fiscalizacao-da-acao-climatica)
+I presented the benchmarking workflow at the **ClimateScanner Summit 2026** in Rio de Janeiro, explaining how public managers could learn from completed projects in other jurisdictions.
 
-CompletAI
+[Repository](https://github.com/YagorVitor/Climaton-2026) · [TCU coverage of the winning project](https://portal.tcu.gov.br/imprensa/noticias/ecodados-vence-climatonbrasil-2026-com-aplicacao-voltada-a-gestao-publica) · [Official Summit announcement](https://portal.tcu.gov.br/imprensa/noticias/encontro-internacional-discute-fiscalizacao-da-acao-climatica)
 
-Built with my team during the iFood Hackathon at SEMCOMP. The application uses AI agents to recommend meals and assemble iFood shopping carts based on fridge photos and user preferences.
+## Research
 
-Stack: Python, FastAPI, OpenAI Agents SDK, iFood MCP, React, and TypeScript.
+At IFSP, I conduct applied machine-learning research using RGB and multispectral drone imagery to study soil conditions and crop nutrition in smallholder agriculture, with a focus on coffee crops.
 
-"GitHub repository" (https://github.com/YagorVitor/Hackathon-Ifood)
+## Other projects
 
-Sentry AI
+### Sentry AI
 
-An open-source platform for contract analysis, clause extraction, and risk classification using RAG. I contributed to the backend, authentication, and defenses against prompt injection.
+I co-developed a contract analysis platform that uses retrieval-augmented generation (RAG) to extract clauses and identify risks. My contributions include the Flask backend, authentication, and defenses against prompt injection.
 
-Stack: Python, Flask, SQLAlchemy, MySQL, JWT, OTP, and OAuth.
+### IF-Arbitra
 
-Technical interests
+I co-developed a group allocation platform using FastAPI and PostgreSQL. The backend enforces enrollment rules during concurrent registrations, computes allocations deterministically, and records decisions for audit.
 
-- Backend architecture and API development
-- Data modeling with relational and NoSQL databases
-- AWS infrastructure, containers, and production operations
-- AI agents, LLM integration, and RAG
-- Application security and prompt-injection defenses
-- Machine learning and computer vision
-
-Primary stack: TypeScript, Node.js, NestJS, Python, FastAPI, AWS, DynamoDB, MongoDB, MySQL, Docker, and GitHub Actions.
-
-Open to opportunities in backend engineering, cloud infrastructure, and applied AI, including international roles.
+[Repository](https://github.com/YagorVitor/IF-Arbitra) · [Backend documentation](https://github.com/YagorVitor/IF-Arbitra/blob/main/backend/README.md)
