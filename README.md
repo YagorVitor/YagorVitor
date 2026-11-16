@@ -10,17 +10,17 @@ Araraquara, Brazil (UTC−3) · [LinkedIn](https://www.linkedin.com/in/yagor-san
 
 ### CompletAI · SEMCOMP × iFood Hackathon
 
-My team built a grocery assistant that turns food photos, user preferences, and meal requests into recommendations and an iFood Mercado cart.
+My team built a grocery assistant that helps users decide what to cook and what to buy based on food photos, available ingredients, and personal preferences.
 
 I developed the AI agents with the OpenAI Agents SDK, the computer vision workflow for identifying ingredients in photos, and the FastAPI backend that connects image recognition, meal recommendations, product search, and cart creation.
 
-Users review the recognized ingredients before proceeding. Search is the only iFood MCP operation exposed to the agent. The backend validates the proposed cart, then creates and verifies it after explicit user confirmation. The prototype ends at the verified cart.
+Users review the recognized ingredients before proceeding. Search is the only iFood MCP operation exposed to the agent. The backend validates the proposed cart, then creates and verifies it after explicit user confirmation.
 
 [Repository](https://github.com/YagorVitor/Hackathon-Ifood) · [Screenshots and user flow](https://github.com/YagorVitor/Hackathon-Ifood/blob/main/docs/entregaveis/04-interface-visual.md) · [Agent implementation](https://github.com/YagorVitor/Hackathon-Ifood/blob/main/backend/app/agent.py) · [Cart tests](https://github.com/YagorVitor/Hackathon-Ifood/blob/main/backend/tests/test_cart.py)
 
 ### ÉcoDados · 1st place at ClimatonBrasil 2026
 
-Our team won first place among 15 teams at the hackathon organized by Brazil’s Federal Court of Accounts (TCU). We built a WebGIS platform to help public managers prioritize climate issues and develop action plans.
+Our team won first place among 15 teams at the hackathon organized by Brazil’s Federal Court of Accounts (TCU). We built a WebGIS platform to help public managers turn climate indicators into priorities and action plans.
 
 I worked on the FastAPI backend, MongoDB data model, and OpenAI Responses API integration. The model suggests assessment criteria and drafts action plans. The backend validates structured outputs and computes rankings using deterministic rules.
 
